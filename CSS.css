@@ -1,0 +1,347 @@
+/* first page */
+
+.header img{
+    width: 100%;
+    height: 750px;
+}
+
+.header h1 {
+    position:absolute;
+    top:400px;
+    left:1000px;
+    font-size: 60px;
+    color: #ffc857;
+}
+
+.header button {
+    position: absolute;
+    top:600px;
+    left:1000px;
+}
+
+.about img {
+    width:500px;
+    height:500px;
+    float: right;
+}
+
+.about_us{
+    position:absolute;
+    width:100%;
+    background-color: #084c61;
+
+}
+
+.about_us h1 {
+    font-size:50px;
+    position: absolute;
+    left:450px;
+    top: 100px;
+    color: #ffc857;
+}
+
+.about_us p {
+    font-size:20px ;
+    position: absolute;
+    left:300px;
+    top:200px;
+    text-align: center;
+    color: #ffc857;
+}
+
+/*second page */
+
+.content h1{
+    position: absolute;
+    left:50%;
+    font-size: 30px;
+
+}
+
+.firstcontent img {
+    position: absolute;
+    top: 10%;   
+    left:20%;
+    height: 900px;
+}
+
+.firstcontent h2 {
+    position: absolute;
+    left:1000px ;
+    top:10%;
+}
+
+.firstcontent p {
+    position: absolute;
+    left:1000px ;
+    top:30%;
+    right:100px;
+}
+
+.secondcontent img {
+    position:absolute;
+    top:1000px;
+    left:1000px;
+    height:900px;
+}
+
+.secondcontent h2 {
+    position: absolute;
+    left:500px ;
+    top:1200px;
+}
+
+.secondcontent p {
+    position: absolute;
+    left:300px ;
+    top:1300px;
+    right:700px;
+}
+
+.thirdcontent img {
+    position: absolute;
+    top: 2000px;   
+    left:20%;
+    height: 900px;
+}
+
+.thirdcontent h2 {
+    position: absolute;
+    left:1000px ;
+    top:2000px;
+}
+
+.thirdcontent p {
+    position: absolute;
+    left:1000px ;
+    top:2200px;
+    right:100px;
+}
+
+.location h1{
+    background-color: black;
+    padding:100px;
+    margin : auto;
+    text-align: center;
+    font-size: 40px;
+    color: #ffc857;
+}
+
+.location h3{
+    padding: 50px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+}
+
+.location p,h4 {
+    margin:30px;
+    padding-left: 100px;
+    padding-right: 100px; 
+    font-size:25px;
+}
+
+.location button{ 
+    background-color: #ffc857;
+    margin-left: 130px;
+}
+
+/* Contact Information Page */ 
+
+.contact h1{
+    margin:50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact img{
+    width:800px;
+    height:800px;
+    margin: 20px;
+    float: left;
+}
+
+.contact p {
+    margin: 50px;
+    padding-top: 50px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.bodies {
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffc857;
+
+}
+
+.container{
+    max-width:700px;
+    width:100%;
+    background:#084c61;
+    padding:25px 30px;
+    border-radius: 5px;
+
+}
+
+.container title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container form.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px 0 12px 0;
+}
+
+form.user-details .input.box{
+    margin-bottom: 15px;
+    width: calc(100%/2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left: 15px;
+    font-size:16px;
+
+}
+
+/* tester */
+
+.headers img{
+    height:80px;
+    width: 80px;
+}
+
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  .headers{
+    min-height: 5vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(contactpic.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+  }
+  
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  nav img{
+    width:150px;
+    background-color: transparent;
+  }
+  
+  .nav-links{
+    flex:1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size:  13px;
+  }
+  .nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition:0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+
+  /*how to make the the text have surrounding border*/
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position:relative;
+    cursor:pointer;
+  }
+  
+  /*make it turn red when your cursor hover over it */
+  .hero-btn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    /*to make it look cooler*/
+    transition: 1s;
+  }
+  /* please fucking remember to space next time */
+  nav .fa {
+    display: none;
+  }
+  
+  /* for phone viewing*/
+
+  @media(max-width:700px){
+    .text-box h1{
+      font-size:20px;
+    }
+    .nav-links ul li {
+      display:block;
+    }
+    .nav-links{
+      position:absolute;
+      background:#f44336;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align:left;
+      z-index: 2; 
+      transition: 1s;
+    }
+    nav .fa{
+      display:block;
+      color:#fff;
+      margin:10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  
+    .nav-links ul {
+      padding: 30px;
+    }
+  }
+  
+
